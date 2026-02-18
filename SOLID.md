@@ -8,12 +8,12 @@ SOLID is a set of 5 important rules in Object-Oriented Programming.
 
 ### Simple Meaning:
 
-A class should do only **one job**.
+A class should do only one job.
 If a class is doing many things, it becomes hard to manage.
 
 ---
 
-### Correct Code
+### Code
 
 ```python
 class InvoiceCalculator:
@@ -34,7 +34,7 @@ printer.print_invoice(total)
 # Total: 300
 ```
 
-Now each class has only **one responsibility**.
+Here each class has only one responsibility.
 
 ---
 
@@ -42,11 +42,11 @@ Now each class has only **one responsibility**.
 
 ### Simple Meaning:
 
-You should be able to **add new features** without changing old code.
+You should be able to add new features without changing old code.
 
 ---
 
-### Correct Code
+### Code
 
 ```python
 class Shape:
@@ -74,7 +74,7 @@ print(s.area())
 # 16
 ```
 
-Now we can add new shapes without touching old code.
+Here we can add new shapes without touching old code.
 
 ---
 
@@ -83,12 +83,11 @@ Now we can add new shapes without touching old code.
 ### Simple Meaning:
 
 A child class should behave properly like its parent.
-You should be able to replace parent with child without breaking code.
 
 ---
 
 
-### Correct Code
+### Code
 
 ```python
 class Vehicle:
@@ -121,7 +120,7 @@ Keep things small and specific.
 ---
 
 
-### Correct Code
+### Code
 
 ```python
 class Printer:
@@ -179,6 +178,6 @@ print(computer.use_device())
 # Typing...
 ```
 
-Now we can replace Keyboard with another device easily.
+Here we can replace Keyboard with another device easily.
 
 ---
